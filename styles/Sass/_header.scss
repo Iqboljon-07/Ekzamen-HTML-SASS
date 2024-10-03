@@ -1,0 +1,141 @@
+header{
+    width:100%;
+    height: 200px;
+    background:$primaryColor1;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+
+ul{
+
+
+    width: 917px;
+height: 48px;
+
+display: flex;
+justify-content: space-between;
+
+h1{
+
+    @include chatgptn(48px,700,$primaryColor);
+    font-family: Livvic;
+   
+    line-height: 48px;
+    text-align: left;
+width: auto;    
+
+}
+button{
+    @include chatgptn(18px,600,$primaryColor);
+    width: 153px;
+    height: 48px;
+    font-family: Livvic;
+   
+    
+    line-height: 28px;
+    text-align: left;
+
+text-align: center;   
+border-radius: 24px; 
+border: 2px solid $primaryColor;
+background-color: $primaryColor1;
+&:hover{
+background-color: $black;
+color:#FFFFFF;
+
+
+}
+}
+}
+
+}
+
+
+@media(max-width:768px){
+
+    header{
+        width: 100%;
+        height: 200px;
+        background:$primaryColor1;
+        display: flex;
+      
+        align-items: center;
+        justify-content: center;
+    
+    ul{
+    
+    
+        width: 573px;
+    height: 48px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    h1{
+
+        @include chatgptn(32px,700,0);
+        font-family: Livvic;
+       
+        line-height: 32px;
+        text-align: left;
+    width: auto;    
+
+
+    }
+    
+    }
+    
+    }
+    
+    
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+//mobile
+@media(max-width:375px){
+    header{
+        width:100%;
+        height: 302px;
+      
+    ul{
+    
+    
+        width: 327px;
+    height: 136px;
+  
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+    align-items: center;
+    
+    h1{
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+    width: auto;    
+    
+    }
+    
+    }
+    
+    }
+    
+
+
+
+}

@@ -1,0 +1,54 @@
+@import"./mixins";
+@import"./variables";
+
+@import"./main";
+@import"./header";
+@import"./nav";
+
+@import"./footer";
+@import"./menu_nav";
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body{
+   
+max-width: 1440px;
+height: 1832px;
+
+
+
+}
+
+@media(max-width:768px){
+
+body{
+
+   width: 768px;
+   height: 2057px;
+  
+   
+
+}
+
+
+   
+}
+
+
+@media(max-width:375px){
+
+body{
+
+
+   width: 375px;
+   height: 2726px;
+  
+
+}
+
+
+}

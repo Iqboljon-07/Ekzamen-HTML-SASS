@@ -1,0 +1,341 @@
+nav{
+
+    width: 100%;
+    height: 517px;
+   
+  background: $primaryColor4;
+    display:flex;
+    flex-direction: column;
+align-items: center;
+gap:120px;
+
+
+.container{
+    width: 1110px;
+    height: 48px;
+    margin-top: 73px;
+   
+display: flex;
+justify-content: space-between;
+img{
+
+    height: 40px;
+    
+    
+
+}
+
+ul{
+   
+   
+ list-style: none;
+ display: flex;
+align-items: center;
+
+gap:40px;
+
+
+
+ li{
+    @include chatgptn(18px,600,$primaryColor5);
+    font-family: Livvic;
+   
+    text-align: left;
+    font-family: Livvic;
+    
+  
+  
+}
+    
+button{
+background-color:$primaryColor4;
+    width: 153px;
+    height: 48px;
+    border: 2px solid $primaryColor5;
+    border-radius: 24px;
+    font-family: Livvic;
+font-size: 18px;
+
+text-align: center;
+
+@include chatgptn(18px,600,$primaryColor5);
+
+   &:hover{
+background-color:$primaryColor5;
+color:$black ;
+
+
+
+   }
+    
+
+}
+
+
+ 
+
+
+}
+
+
+}
+
+
+
+
+.container-2{
+
+
+    width: 1110px;
+    height: 156px;
+
+display: flex;
+justify-content: space-between;
+h1{
+    @include chatgptn(64px,700,$primaryColor5);
+    font-family: Livvic;
+    
+    text-align: left;
+    
+    width: 350px;
+    height: 100px;
+    
+}
+
+p{
+
+    @include chatgptn(18px,600,$primaryColor5);
+    width: 650px;
+    height: 112px;
+    font-family: Livvic;
+    
+    line-height: 28px;
+    text-align: left;
+
+margin-top:44px;
+
+}
+}
+
+}
+
+
+@media(max-width:768px){
+    nav{
+
+        width: 100%;
+        height: 556px;
+  
+        display:flex;
+        flex-direction: column;
+    align-items: center;
+    gap:112px;
+    
+    
+    .container{
+        width: 689px;
+        height: 48px;
+        margin-top: 64px;
+       
+    display: flex;
+    justify-content: space-between;
+    img{
+    
+        height: 32px;
+        
+        
+    
+    }
+    
+    ul{
+       
+       
+     list-style: none;
+     display: flex;
+    align-items: center;
+    
+    gap:40px;
+    
+ 
+     
+    
+    
+    }
+    
+    
+    }
+    
+    
+    
+    
+    .container-2{
+    
+    
+        width: 683px;
+        height: 240px;
+        
+        
+    
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+
+    h1{
+    
+        font-family: Livvic;
+        font-size: 64px;
+        font-weight: 700;
+       line-height: 56px;;
+        text-align: center;
+        
+  
+   
+    }
+    
+    p{
+        width: 457px;
+        height: 140px;
+        
+        
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.7px;;
+      
+
+    
+    }
+    }
+    
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+//mobile
+
+@media(min-width:375px){
+
+nav{
+
+label{
+
+    display: none;
+
+    
+}
+}
+
+
+
+}
+
+
+
+
+@media(max-width:375px){
+
+    nav{
+
+        width: 100%;
+        height: 520px;
+       
+        background-color:$primaryColor4;
+        display:flex;
+        flex-direction: column;
+    align-items: center;
+    gap:80px;
+    
+    
+    .container{
+        width: 327px;
+        height: 32px;
+        margin-top: 48px;
+       
+    display: flex;
+    justify-content: space-between;
+    img{
+    
+        height: 32px;
+        
+        
+    
+    }
+    
+    ul{
+       
+       
+    display:none;
+    
+    
+        
+   
+    
+    
+     
+    
+    
+    }
+    
+    
+    }
+    
+    
+    
+    
+    .container-2{
+    
+        width: 327px;
+        height: 252px;
+        
+      align-items: center;  
+    
+    display: flex;
+ flex-direction: column;
+    h1{
+        font-family: Livvic;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        
+        width: 327px;
+        height: 40px;
+       
+    }
+    
+    p{
+        font-family: Livvic;
+font-size: 15px;
+font-weight: 600;
+line-height: 28px;
+text-align: center;
+width: 327px;
+height: 196px;
+
+
+        color:$primaryColor5;
+  
+    
+    }
+    }
+    
+    }
+
+
+    
+}
+
+
